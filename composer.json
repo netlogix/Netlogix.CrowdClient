@@ -1,0 +1,16 @@
+{
+    "name": "netlogix/crowdclient",
+    "type": "typo3-flow-package",
+    "description": "Provides a client and authentication provider to connect Flow and Neos applications to Atlassian Crowd.",
+    "license": [
+      "MIT"
+    ],
+    "require": {
+        "typo3/flow": "~3.0@beta"
+    },
+    "autoload": {
+        "psr-0": {
+            "Netlogix\\CrowdClient": "Classes"
+        }
+    }
+}
